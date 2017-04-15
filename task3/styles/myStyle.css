@@ -1,0 +1,106 @@
+﻿body 
+{
+    direction:rtl;
+    width:960px;
+    background-color:#808080;
+}
+#myheader{
+    background-color:#696969;
+    width:960px;
+    font-family:'Amatic SC';   
+}
+#myname{
+    color:white;
+    font-size:24px;
+    text-align:center;
+}
+h1{
+    font-size:45px;
+    text-align:center;
+    color:white;
+    padding:10px;
+}
+p{
+    padding:10px;
+   font-family:'Amatic SC';
+}
+#lea{
+    float:left;
+    margin-bottom:100px;
+    padding-left:36px;
+}
+.nav1{
+    list-style:none;
+    text-align:center;
+    width:220px;
+    margin-top:140px;
+    margin-right:350px;
+
+}
+.nav1 li{
+    list-style:none;
+    text-decoration:none;
+    padding:20px;
+}
+.nav1 li a{
+    text-decoration:none;
+    color:white;
+    font-family:'Amatic SC';
+    font-size:24px;
+}
+a:hover{
+    background-color:#696969;
+    padding:10px;
+    width:20px;
+    opacity:0.5;
+}
+.mylimodim{
+    color:white;
+    font-size:20px;
+    font-family:'Amatic SC'
+    
+}
+.limodim{
+    list-style:none;
+    padding-bottom:40px;
+    color:white;
+    font-family:'Amatic SC';
+    font-size:18px;
+}
+h3{
+    color:white;
+    font-family:'Amatic SC';
+    font-size:28px;
+}
+a{
+    text-decoration:none;
+    color:white;
+    font-family:'Amatic SC';
+    font-size:24px;
+}
+.mylink {
+   background-color:darkgray;
+   width:960px;
+   height:250px;
+   padding-top:30px;
+  
+  
+  
+}
+.nav2{
+    text-decoration:none;
+    font-family:'Amatic SC';
+    color:white;
+}
+.nav2 ul li ul {
+     display: none;
+     position: absolute; 
+}
+
+.nav2 ul li:hover ul {
+     display:block;
+      width:400px;
+
+}
+
+
